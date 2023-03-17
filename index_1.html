@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Exo 2', sans-serif;
+}
+/*                                            HEADER                                                   */
+header{
+    height: 2rem;
+    background-color: aqua;
+    font-size: 25px;
+    color: brown;
+    margin-bottom: 10px;padding: 17px;
+}
+/*                                            BODY                                                  */
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(48, 183, 207);
+    margin-left: auto;
+    margin-right: auto;
+}
+/*                                         SMALL BOX                                                   */
+.smallbox{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 25px;
+    margin: 30px;
+    margin-top: 130px;
+}
+.boxcontainer{
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+/*                                      SMALL  BOX HOVER                                                  */
+.smallbox:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: orangered;
+}
+.btn{
+    
+    width: 50%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    border: none;
+    margin-left: 25%;
+    text-align: center;
+} 
+/*                                            BUTTON HOVER                                  */                 
+ .btn:hover{
+    background-color: darkblue;
+    transform: scale(1.02);
+    cursor: pointer;
+} 
+/*                                          FOOTER                                                  */
+footer{
+    background-color: black;
+    height: 5.45rem;
+}
+    </style>
+</head>
+<body>
+    <header>Ecommrence Template</header>
+         <h1>Shop From The Below Range Of Products</h1> 
+            <div class="container">
+                <div class="boxcontainer">
+                <div class="smallbox"></div>
+                <div class="smallbox"></div>
+                <div class="smallbox"></div>
+                <div class="smallbox"></div>
+                </div><br><br><br><br>
+                <button class="btn">Expilore More</button>
+            </div>
+        <footer class="black"></footer>
+    
+</body>
+</html>
